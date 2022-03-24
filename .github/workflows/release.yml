@@ -13,3 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: suinua/plugin_release@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
